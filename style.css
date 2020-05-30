@@ -1,0 +1,98 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+div.box {
+    width:800px;
+    margin:15px auto;
+    background:#eee;
+    padding:20px;
+    border-radius:10px;
+}
+
+h3 {
+    font-size:24px;
+    padding-bottom:20px;
+    margin-bottom:20px;
+    border-bottom:1px #999 solid;
+}
+
+.button {
+    padding: 5px 10px;
+    border:#666 solid 1px;
+    background:#FFF;
+    display:block;
+    width:100px;
+    text-align:center;
+    cursor:pointer;
+}
+
+div.box {
+	width:800px;
+	margin:15px auto;
+	background:#eee;
+	padding:20px;
+	border-radius:10px;
+}
+
+/*	Q.05	*/
+#q05_box00 {
+	width:240px;
+	height:115px;
+	display:block;
+	background:#999;
+	color:#FFF;
+	font-size:30px;
+	text-align:center;
+	float:left;
+	margin:10px;
+
+}
+#q05_box01,
+#q05_box02,
+#q05_box03 {
+	width:80px;
+	height:115px;
+	display:block;
+	background:#999;
+	color:#FFF;
+	font-size:30px;
+	text-align:center;
+	float:left;
+	margin:10px;
+}
+#q05_box00 div,
+#q05_box01 div,
+#q05_box02 div,
+#q05_box03 div {
+	width:50px;
+	height:50px;
+	margin:10px;
+	background:#333;
+	display:inline-block;
+	line-height:50px;
+
+}
+.accordion3 {text-align: center;}
+.accordion3 .inner {display: none;}
+.accordion3 .inner.open {display: block;}
+.accordion3 p{cursor: pointer; padding: 10px;}
+.accordion3 p.ac1{background: #F50057;}
+.accordion3 p.ac2{background: #FFEA00;}
+.accordion3 p.ac3{background: #64DD17;}
+.accordion3 .inner li{padding: 10px 0;}
+.accordion3 .inner li.content1-1{background: #F48FB1;}
+.accordion3 .inner li.content1-2{background: #F8BBD0;}
+.accordion3 .inner li.content1-3{background: #FCE4EC;}
+.accordion3 .inner li.content2-1{background: #FFF59D;}
+.accordion3 .inner li.content2-2{background: #FFF9C4;}
+.accordion3 .inner li.content2-3{background: #FFFDE7;}
+.accordion3 .inner li.content3-1{background: #C5E1A5;}
+.accordion3 .inner li.content3-2{background: #DCEDC8;}
+.accordion3 .inner li.content3-3{background: #F1F8E9;}
